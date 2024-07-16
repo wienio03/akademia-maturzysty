@@ -3,15 +3,15 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Courses from "./components/Courses";
-
+import Service from "./components/Service";
+import "./App.css";
 const App = () => {
   return (
-    <div>
+    <div className="scroll-smooth">
       <Navbar />
       <Hero />
       <About />
-      <Courses />
+      <Service />
     </div>
   );
 };

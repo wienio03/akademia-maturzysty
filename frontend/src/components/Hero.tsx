@@ -3,7 +3,7 @@ import hero from "../assets/hero.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen lg:h-screen flex flex-col lg:flex-row justify-center items-center">
+    <section id="hero" className="relative w-full min-h-screen lg:h-screen flex flex-col lg:flex-row justify-center items-center">
       <img src={hero} alt="hero" className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none shadow-lg shadow-gray-400" style={{ objectPosition: "75%" }} />
       <div className="font-Montserrat relative z-10 flex flex-col lg:w-1/2 p-6 text-white text-center lg:text-left lg:ml-10 mt-10 lg:mt-0">
         <h1 className="text-4xl lg:text-5xl font-bold mb-4">Witaj maturzysto!</h1>

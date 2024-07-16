@@ -4,8 +4,8 @@ import { faBullseye, faEye, faChalkboardTeacher, faBook, faComments, faPhone } f
 
 const About = () => {
     return (
-        <div className="flex justify-between items-center flex-col font-Montserrat text-black">
-            <div className="w-10/12 text-left">
+        <div id="about" className="flex justify-between items-center flex-col font-Montserrat text-black">
+            <div className="text-center items-center">
                 <h3 className="font-medium text-3xl mt-20">O NAS</h3>
             </div>
             <div className="lg:flex lg:flex-row lg:justify-between">
