@@ -1,7 +1,5 @@
 # Akademia Maturzysty
 
-![Logo]("frontend/src/assets/logo.png")
-
 Akademia Maturzysty to strona internetowa stworzona, aby wspierać maturzystów w przygotowaniach do egzaminów maturalnych. Strona została stworzona z wykorzystaniem nowoczesnych technologii, aby zapewnić najlepsze doświadczenie użytkownika.
 
 ## Autor
