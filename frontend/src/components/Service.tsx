@@ -74,16 +74,16 @@ const Courses = () => {
     };
 
     return (
-        <div id="service" className="w-11/12 md:w-1/2 m-auto font-Montserrat flex flex-col mb-10">
+        <div id="service" className="w-9/12 lg:w-1/2 m-auto font-Montserrat flex flex-col mb-10">
             <div className="text-center items-center">
                 <h3 className="font-medium text-3xl mt-20">OFERTA</h3>
             </div>
-            <div className="rounded-lg bg-teal-300 mt-20 relative overflow-hidden shadow-2xl mb-10">
+            <div className="rounded-lg bg-teal-600 mt-20 relative overflow-hidden shadow-2xl mb-10">
                 <div className="flex transition-transform duration-500" style={{ transform: `translateX(-${currentIndex * 100}%)`, width: '100%' }}>
                     {service.map((s, index) => (
                         <div key={index} className="bg-transparent w-1/2 p-4 box-border flex-shrink-0">
                             <div className="bg-white h-[450px] text-black rounded-xl">
-                                <div className="h-56 bg-teal-300 flex justify-center items-center relative">
+                                <div className="h-56 bg-teal-600 flex justify-center items-center relative">
                                     <img src={s.img} alt={s.name} className="h-full w-full absolute" />
                                 </div>
                                 <div className="flex flex-col justify-center items-center gap-4 p-4">
