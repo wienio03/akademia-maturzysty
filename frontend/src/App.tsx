@@ -10,7 +10,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="scroll-smooth">
+    <div>
       <Navbar />
       <Hero />
       <About />
